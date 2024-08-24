@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "998692792196",
+    "project_id": "calltaxiapp-91df1",
+    "storage_bucket": "calltaxiapp-91df1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:998692792196:android:af7402637874cbb28a1fd1",
+        "android_client_info": {
+          "package_name": "com.example.calltaxiapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCPaJPk777Hcqm2spkPDMCkYN5A0PCkOTs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

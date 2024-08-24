@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="130dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <TextView
+        android:id="@+id/bulletinboard_scroll_itme_list_Textview_Title"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:text="안녕하세요."
+        android:textColor="@color/black"
+        android:textSize="30dp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:layout_marginStart="10dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintWidth_default="wrap"
+        app:layout_constraintHeight_default="percent"
+        app:layout_constraintHeight_percent="0.35" />
+
+    <TextView
+        android:id="@+id/bulletinboard_scroll_itme_list_Textview_Content"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:text="경상북도 구미시 형곡동"
+        android:textColor="@color/black"
+        android:gravity="center"
+        android:textSize="25dp"
+        android:layout_marginStart="10dp"
+        app:layout_constraintTop_toBottomOf="@id/bulletinboard_scroll_itme_list_Textview_Title"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintWidth_default="wrap"
+        app:layout_constraintHeight_default="percent"
+        app:layout_constraintHeight_percent="0.25" />
+
+    <TextView
+        android:id="@+id/bulletinboard_scroll_itme_list_Textview_Time"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:text="시간"
+        android:textColor="@color/black"
+        android:gravity="center"
+        android:textSize="20dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginStart="10dp"
+        app:layout_constraintTop_toBottomOf="@id/bulletinboard_scroll_itme_list_Textview_Content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintWidth_default="wrap"
+        app:layout_constraintHeight_default="percent"
+        app:layout_constraintHeight_percent="0.25" />
+
+    <ImageView
+        android:id="@+id/bulletinboard_scroll_itme_list_Imageview_Lengthline"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:src="@drawable/length_line"
+        android:layout_marginTop="12dp"
+        android:layout_marginStart="7dp"
+        app:layout_constraintTop_toBottomOf="@+id/bulletinboard_scroll_itme_list_Textview_Content"
+        app:layout_constraintStart_toEndOf="@+id/bulletinboard_scroll_itme_list_Textview_Time"
+        app:layout_constraintWidth_default="wrap"
+        app:layout_constraintHeight_default="percent"
+        app:layout_constraintHeight_percent="0.15" />
+
+    <TextView
+        android:id="@+id/bulletinboard_scroll_itme_list_Textview_Nickname"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:text="익명"
+        android:textColor="@color/black"
+        android:gravity="center"
+        android:textSize="20dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginStart="7dp"
+        app:layout_constraintStart_toEndOf="@+id/bulletinboard_scroll_itme_list_Imageview_Lengthline"
+        app:layout_constraintTop_toBottomOf="@id/bulletinboard_scroll_itme_list_Textview_Content"
+        app:layout_constraintWidth_default="wrap"
+        app:layout_constraintHeight_default="percent"
+        app:layout_constraintHeight_percent="0.25" />
+
+    <ImageView
+        android:id="@+id/bulletinboard_scroll_itme_list_Imageview_Likeicon"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:src="@drawable/likeicon"
+        android:layout_marginTop="5dp"
+        android:layout_marginStart="200dp"
+        app:layout_constraintStart_toEndOf="@+id/bulletinboard_scroll_itme_list_Textview_Nickname"
+        app:layout_constraintTop_toBottomOf="@id/bulletinboard_scroll_itme_list_Textview_Content"
+        app:layout_constraintWidth_default="wrap"
+        app:layout_constraintHeight_default="wrap" />
+
+    <TextView
+        android:id="@+id/bulletinboard_scroll_itme_list_Textview_Count_likeicon"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:text="0"
+        android:textColor="@color/red"
+        android:gravity="center"
+        android:textSize="20dp"
+        android:layout_marginTop="5dp"
+        app:layout_constraintStart_toEndOf="@+id/bulletinboard_scroll_itme_list_Imageview_Likeicon"
+        app:layout_constraintTop_toBottomOf="@id/bulletinboard_scroll_itme_list_Textview_Content"
+        app:layout_constraintWidth_default="wrap"
+        app:layout_constraintHeight_default="percent"
+        app:layout_constraintHeight_percent="0.25" />
+
+
+    <ImageView
+        android:id="@+id/bulletinboard_scroll_itme_list_Imageview_Commenticon"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:src="@drawable/commenticon"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="7dp"
+        app:layout_constraintStart_toEndOf="@+id/bulletinboard_scroll_itme_list_Textview_Count_likeicon"
+        app:layout_constraintTop_toBottomOf="@id/bulletinboard_scroll_itme_list_Textview_Content"
+        app:layout_constraintWidth_default="wrap"
+        app:layout_constraintHeight_default="wrap" />
+
+    <TextView
+        android:id="@+id/bulletinboard_scroll_itme_list_Textview_Count_commenticon"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:text="0"
+        android:textColor="@color/azure_blue"
+        android:gravity="center"
+        android:textSize="20dp"
+        android:layout_marginTop="5dp"
+        app:layout_constraintStart_toEndOf="@+id/bulletinboard_scroll_itme_list_Imageview_Commenticon"
+        app:layout_constraintTop_toBottomOf="@id/bulletinboard_scroll_itme_list_Textview_Content"
+        app:layout_constraintWidth_default="wrap"
+        app:layout_constraintHeight_default="percent"
+        app:layout_constraintHeight_percent="0.25" />
+
+    <ImageView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:src="@drawable/line"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/bulletinboard_scroll_itme_list_Textview_Time"
+        app:layout_constraintWidth_default="percent"
+        app:layout_constraintWidth_percent="1"
+        app:layout_constraintHeight_default="percent"
+        app:layout_constraintHeight_percent="0.1" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

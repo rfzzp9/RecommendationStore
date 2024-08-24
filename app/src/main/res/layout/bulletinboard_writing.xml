@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".bulletinboard_writing">
+
+    <TextView
+        android:id="@+id/textView"
+        android:textColor="@color/white"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@color/PaprikaOrange"
+        android:gravity="center"
+        android:text="글쓰기"
+        android:textSize="19dp"
+        android:textStyle="bold"
+        app:layout_constraintHeight_default="percent"
+        app:layout_constraintHeight_percent="0.07"
+        app:layout_constraintWidth_default="percent"
+        app:layout_constraintWidth_percent="1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/Imageview_Closeicon"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:src="@drawable/closeicon"
+        android:layout_marginStart="10dp"
+        app:layout_constraintBottom_toBottomOf="@+id/textView"
+        app:layout_constraintHeight_default="percent"
+        app:layout_constraintHeight_percent="0.05"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/textView"
+        app:layout_constraintWidth_default="percent"
+        app:layout_constraintWidth_percent="0.07" />
+
+    <ImageView
+        android:id="@+id/Imageview_Completionicon"
+        android:layout_width="54dp"
+        android:layout_height="47dp"
+        android:src="@drawable/completionicon"
+        android:layout_marginEnd="10dp"
+        android:layout_marginTop="2.5dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/textView" />
+
+    <EditText
+        android:id="@+id/Title_EditText"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:layout_marginTop="20dp"
+        android:ems="20"
+        android:inputType="textPersonName"
+        android:layout_marginStart="10dp"
+        android:hint="제목"
+        android:textColorHint="@color/LightGray"
+        android:textColor="@color/black"
+        android:backgroundTint="@color/LightGray"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        android:textCursorDrawable="@drawable/cursor_color"
+        />
+
+    <EditText
+        android:layout_marginStart="19dp"
+        android:id="@+id/Content_EditText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@null"
+        android:ems="20"
+        android:hint="내용"
+
+        android:inputType="textMultiLine"
+        android:textColor="@color/black"
+        android:textColorHint="@color/LightGray"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Title_EditText"
+        android:textCursorDrawable="@drawable/cursor_color"
+        />
+    <!--
+    1. 밑줄 제거
+    android:background="@null"
+
+    2. EditText 개행 방법
+    android:inputType="textMultiLine"
+    android:scrollHorizontally="false" // 불필요 ( 자동 줄바꿈 해줌)
+
+    3. 밑줄 색상 변경
+  경 android:backgroundTint="@color/LightGray"
+    -->
+
+    <ImageView
+        android:id="@+id/Imageview_Checkbox"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:src="@drawable/checkbox"
+        android:layout_marginBottom="20dp"
+        app:layout_constraintEnd_toStartOf="@+id/textView2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginEnd="2dp"
+        />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="익명"
+        android:textColor="@color/PaprikaOrange"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        android:layout_marginBottom="20dp"
+        android:layout_marginEnd="35dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+ />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
