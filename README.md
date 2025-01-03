@@ -10,7 +10,6 @@
 ## 📌 주요 기능
 
 
-
 - 사용자에게 적합한 점포와 부가 정보(청소 및 시공업체, 소상공인 관련 정책) 제공
 - 사용자 커뮤니티 및 스크랩 기능
 
@@ -24,3 +23,6 @@
 |Networking|Firebase SDK|
 |Design|Figma|
 |ETC|SharedPreferences|
+
+
+## 📌 기술 스택
