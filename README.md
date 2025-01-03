@@ -24,7 +24,7 @@
 |Language|Java|
 |Networking|Firebase SDK|
 |Design|Figma|
-|ETC|SharedPreferences|
+|ETC|ExecutorService, SharedPreferences|
 
 
 ## 📌 개발 내용
@@ -86,6 +86,8 @@
 | **게시판 화면**                                  | **정부 정책 게시판 화면**                                  |
 
 
+<div align="center">
+
 | ![image1](https://github.com/user-attachments/assets/f99b49be-a73f-471d-8470-2a69ff658e22) | ![image2](https://github.com/user-attachments/assets/6e091da8-0050-4c98-9af3-f310f697a928) |
 |:--------------------------------------------------------:|:--------------------------------------------------------:|
 | **Caption for Image 1**                                  | **Caption for Image 2**                                  |
@@ -94,3 +96,4 @@
 | ![image5](https://github.com/user-attachments/assets/d9d603ce-10e4-4d49-977c-0eb8badeebd0) | ![image6](https://github.com/user-attachments/assets/8ea4e824-4914-4450-ad4c-ca19fd9c14df) |
 | **Caption for Image 5**                                  | **Caption for Image 6**                                  |
 
+</div>
