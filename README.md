@@ -76,6 +76,7 @@
 ## 📌 서비스 화면
 
 
+<div align="center">
 
 | ![image1](https://github.com/user-attachments/assets/f99b49be-a73f-471d-8470-2a69ff658e22) | ![image2](https://github.com/user-attachments/assets/6e091da8-0050-4c98-9af3-f310f697a928) |
 |:--------------------------------------------------------:|:--------------------------------------------------------:|
@@ -84,16 +85,5 @@
 | **점포 추천 상세 화면**                                  | **스크랩 화면**                                  |
 | ![image5](https://github.com/user-attachments/assets/d9d603ce-10e4-4d49-977c-0eb8badeebd0) | ![image6](https://github.com/user-attachments/assets/8ea4e824-4914-4450-ad4c-ca19fd9c14df) |
 | **게시판 화면**                                  | **정부 정책 게시판 화면**                                  |
-
-
-<div align="center">
-
-| ![image1](https://github.com/user-attachments/assets/f99b49be-a73f-471d-8470-2a69ff658e22) | ![image2](https://github.com/user-attachments/assets/6e091da8-0050-4c98-9af3-f310f697a928) |
-|:--------------------------------------------------------:|:--------------------------------------------------------:|
-| **Caption for Image 1**                                  | **Caption for Image 2**                                  |
-| ![image3](https://github.com/user-attachments/assets/6eecc877-3f07-4a90-a840-d81ae274d711) | ![image4](https://github.com/user-attachments/assets/7a126a54-4d8e-4705-ada5-eaa9c815c28a) |
-| **Caption for Image 3**                                  | **Caption for Image 4**                                  |
-| ![image5](https://github.com/user-attachments/assets/d9d603ce-10e4-4d49-977c-0eb8badeebd0) | ![image6](https://github.com/user-attachments/assets/8ea4e824-4914-4450-ad4c-ca19fd9c14df) |
-| **Caption for Image 5**                                  | **Caption for Image 6**                                  |
 
 </div>
