@@ -74,6 +74,7 @@
 
 
 ## 📌 서비스 화면
-![스플래시 화면](https://prod-files-secure.s3.us-west-2.amazonaws.com/420594ea-affc-4b20-8e7e-c45275be32ad/acd92317-4a80-41b5-908f-29c1c3f8d5b7/%EA%B7%B8%EB%A6%BC01.png)
 
-스플래시 화면
+![1111111111111111](https://github.com/user-attachments/assets/f99b49be-a73f-471d-8470-2a69ff658e22)
+
+
