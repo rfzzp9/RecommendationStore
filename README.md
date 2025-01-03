@@ -18,5 +18,9 @@
 ## 📌 기술 스택
 
 
-
-<b><span style="color:red; background-color:DimGray; font-size:150%">Java</span></b>
+|구분|Skill|
+|------|---|
+|Language|Java|
+|Networking|Firebase SDK|
+|Design|Figma|
+|ETC|SharedPreferences|
