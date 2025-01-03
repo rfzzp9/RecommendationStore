@@ -76,7 +76,7 @@
 ## 📌 서비스 화면
 
 
-![image.jpg1](https://github.com/user-attachments/assets/f99b49be-a73f-471d-8470-2a69ff658e22) |![image.jpg2](https://github.com/user-attachments/assets/6e091da8-0050-4c98-9af3-f310f697a928)
+![image.jpg1](https://github.com/user-attachments/assets/f99b49be-a73f-471d-8470-2a69ff658e22) |![image.jpg2](https://github.com/user-attachments/assets/7a126a54-4d8e-4705-ada5-eaa9c815c28a)
 --- | --- |
-![image.jpg1](https://github.com/user-attachments/assets/f99b49be-a73f-471d-8470-2a69ff658e22) |![image.jpg2](https://github.com/user-attachments/assets/6e091da8-0050-4c98-9af3-f310f697a928)
+![image.jpg1](https://github.com/user-attachments/assets/6eecc877-3f07-4a90-a840-d81ae274d711) |![image.jpg2](https://github.com/user-attachments/assets/6e091da8-0050-4c98-9af3-f310f697a928)
 --- | --- |
