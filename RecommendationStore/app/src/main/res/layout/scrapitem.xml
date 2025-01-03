@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    android:id="@+id/scrapitem"
+    >
+
+    <ImageView
+        android:id="@+id/star"
+        android:layout_width="28dp"
+        android:layout_height="28dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:src="@drawable/image333"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="12dp"
+        />
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="휴먼시아아파트"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        app:layout_constraintStart_toEndOf="@+id/star"
+        app:layout_constraintTop_toTopOf="@+id/star"
+        app:layout_constraintBottom_toBottomOf="@+id/star"
+        android:layout_marginStart="7dp"
+        />
+
+    <TextView
+        android:id="@+id/address"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="경상북도 구미시 형곡동 125-6"
+        android:textSize="13sp"
+        app:layout_constraintStart_toStartOf="@+id/name"
+        app:layout_constraintTop_toBottomOf="@+id/star"
+        android:layout_marginTop="4dp"
+        />
+
+    <TextView
+        android:id="@+id/etc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="75.33㎡ / 2017년(8년차)"
+        android:textSize="13sp"
+        app:layout_constraintStart_toStartOf="@+id/name"
+        app:layout_constraintTop_toBottomOf="@+id/address"
+        android:layout_marginTop="3dp"
+        />
+
+    <TextView
+        android:id="@+id/amount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="4,000만원"
+        android:textSize="17sp"
+        android:textStyle="bold"
+        android:textColor="@color/app_color"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="3dp"
+        />
+
+    <TextView
+        android:id="@+id/amount2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="매매"
+        android:textSize="13sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toStartOf="@+id/amount"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginEnd="3dp"
+        android:layout_marginBottom="4dp"
+        />
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

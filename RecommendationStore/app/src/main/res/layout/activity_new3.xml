@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".NewActivity3">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/topLayout"
+        android:layout_width="match_parent"
+        android:layout_height="102dp"
+        android:background="@color/app_color"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+
+        >
+
+        <TextView
+            android:id="@+id/storeName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="공지사항"
+            android:textColor="@color/white"
+            android:textSize="14sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/backBtn"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="8dp"
+            android:src="@drawable/backbtn"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+        <TextView
+            android:id="@+id/address"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="13dp"
+            android:text="위메프,티몬 정산지연 피해 소상공인의 이커머스 플랫폼 진출지원"
+            android:textColor="@color/white"
+            android:gravity="center"
+            android:textSize="17sp"
+            app:layout_constraintEnd_toEndOf="@+id/storeName"
+            app:layout_constraintStart_toStartOf="@+id/storeName"
+            app:layout_constraintTop_toBottomOf="@+id/storeName" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/topLayout"
+
+        >
+
+        <TextView
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="조회수 3"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginEnd="10dp"
+            android:layout_marginTop="10dp"
+            android:textSize="12sp"
+            />
+
+        <TextView
+            android:layout_marginTop="52dp"
+            android:id="@+id/text"
+            android:textSize="15sp"
+            android:layout_width="360dp"
+            android:layout_height="match_parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+
+            android:text="중소벤처기업부(장관 오영주, 이하 중기부)는 위메프·티몬 정산지연 피해 소상공인을 대상으로 이커머스 플랫폼 입점을 지원하기 위해 28일(수) 부터 피해 소상공인을 모집한다고 밝혔다.
+"
+            />
+
+        <TextView
+            android:layout_marginTop="6dp"
+            android:id="@+id/text1"
+            android:textSize="15sp"
+            android:layout_width="360dp"
+            android:layout_height="match_parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/text"
+            android:text="지원 대상은 위메프·티몬에 입점한 기업 중 피해가 발생한 영세 소상공인이다. 중기부의 기존 온라인 판로 지원사업에 참여한 피해기업뿐만 아니라, 사업에 참여하지 않았던 피해 영세 소상공인까지 지원 대상에 포함된다.
+
+"
+            />
+
+        <TextView
+            android:layout_marginTop="6dp"
+            android:id="@+id/text2"
+            android:layout_width="360dp"
+            android:textSize="15sp"
+            android:layout_height="match_parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/text1"
+            android:text="이번 지원방안은 위메프·티몬에 입점하여 미정산 피해를 입은 소상공인 들에게 최대한 빠르게 매출 창출 기회를 제공하기 위해 마련하였다.
+
+"
+            />
+
+        <TextView
+            android:layout_marginTop="6dp"
+            android:id="@+id/text3"
+            android:layout_width="360dp"
+            android:textSize="15sp"
+            android:layout_height="match_parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/text2"
+            android:text="구체적으로는, 피해 소상공인의 마케팅 비용 부담을 덜어주는 가격 할인쿠폰 발급, 광고비로 활용할 수 있는 포인트 지급, 소상공인 전용 기획전 행사 등을 지원한다. 소상공인이 직접 입점할 이커머스 플랫폼을 선택할 수 있으며, 입점 플랫폼의 수에 제한이 없어 활용 범위가 넓다.
+
+"
+            />
+
+        <TextView
+            android:layout_marginTop="6dp"
+            android:id="@+id/text4"
+            android:layout_width="360dp"
+            android:layout_height="match_parent"
+            android:textSize="15sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/text3"
+            android:text="지원 신청은 28일(수) 12:00부터 “판판대로 누리집(fanfandaero.kr)”을 통해 진행할 수 있다. 다만, 휴·폐업 및 부도 중인 소상공인, 국세 및 지방세 체납자 등은 선정에서 제외된다.
+
+
+"
+            />
+
+        <TextView
+            android:layout_marginTop="6dp"
+            android:id="@+id/text5"
+            android:layout_width="360dp"
+            android:textSize="15sp"
+            android:layout_height="match_parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/text4"
+            android:text="* (예) 판매자 페이지의 5~7월 중 결제내역 출력물을 통해 매출 사실을 입증하고
+사업자번호를 통해 신청 사업자가 피해 사업자와 동일함을 확인
+** 홈택스 → 사업자등록번호로 조회 → 사업자등록상태조회
+
+
+"
+            />
+
+        <TextView
+            android:layout_marginTop="60dp"
+            android:id="@+id/text6"
+            android:layout_width="wrap_content"
+            android:textSize="14sp"
+            android:layout_height="match_parent"
+            android:layout_marginEnd="14dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/text5"
+            android:text="문의 - 류민희 사무관(044-204-7282)"
+            />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

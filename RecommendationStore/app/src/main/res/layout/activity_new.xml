@@ -1,0 +1,569 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/background"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/LightGray"
+    tools:context=".NewActivity">
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/topLayout"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:background="@color/app_color"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/storeName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="2024 소상공인 금융상품"
+            android:textColor="@color/white"
+            android:textSize="22sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/backBtn"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="8dp"
+            android:src="@drawable/backbtn"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/starBtn1"
+            android:layout_width="15dp"
+            android:layout_height="15dp"
+            android:layout_marginEnd="7dp"
+            android:src="@drawable/image333"
+            app:layout_constraintEnd_toStartOf="@+id/address"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginTop="60dp"
+            />
+
+        <ImageView
+            android:id="@+id/starBtn"
+            android:layout_width="15dp"
+            android:layout_height="15dp"
+            android:layout_marginEnd="7dp"
+            android:src="@drawable/image333"
+            app:layout_constraintEnd_toStartOf="@+id/etc"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginTop="85dp"
+            />
+
+        <TextView
+            android:id="@+id/address"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="13dp"
+            android:text="정책자금 상환연장 : 24.08.16 ~ 상시"
+            android:textColor="@color/white"
+            android:textSize="15sp"
+            app:layout_constraintEnd_toEndOf="@+id/storeName"
+            app:layout_constraintStart_toStartOf="@+id/storeName"
+            app:layout_constraintTop_toBottomOf="@+id/storeName" />
+
+        <TextView
+            android:id="@+id/etc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3dp"
+            android:text="일시적경영애로자금 : 24.08.09 ~ 24.12.16"
+            android:textColor="@color/white"
+            android:textSize="15sp"
+            app:layout_constraintEnd_toEndOf="@+id/storeName"
+            app:layout_constraintStart_toStartOf="@+id/storeName"
+            app:layout_constraintTop_toBottomOf="@+id/address" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+    <ScrollView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintTop_toBottomOf="@+id/topLayout"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:fillViewport="true"
+        android:scrollbars="none"
+        >
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/storeLayout"
+                android:layout_width="match_parent"
+                android:layout_height="170dp"
+                android:background="@color/white">
+
+                <TextView
+                    android:id="@+id/visitRanking"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginTop="11dp"
+                    android:text="성장기반자금"
+                    android:textSize="13sp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+
+                <TextView
+                    android:id="@+id/text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="소공인특화자금"
+                    android:textColor="@color/app_color"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    app:layout_constraintStart_toStartOf="@+id/visitRanking"
+                    app:layout_constraintTop_toBottomOf="@+id/visitRanking" />
+
+                <ImageView
+                    android:id="@+id/starBtn3"
+                    android:layout_width="21dp"
+                    android:layout_height="21dp"
+                    android:src="@drawable/starbtn"
+                    app:layout_constraintStart_toEndOf="@+id/text"
+                    app:layout_constraintTop_toTopOf="@+id/text"
+                    android:layout_marginTop="2dp"
+                    android:layout_marginStart="6dp"
+                    />
+
+                <TextView
+                    android:id="@+id/text22"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="(대리대출) 제조업을 영위하는 상시근로자수 10인 미만의 소상공인"
+                    android:textColor="@color/app_color"
+                    android:textSize="13sp"
+                    app:layout_constraintStart_toStartOf="@+id/visitRanking"
+                    app:layout_constraintTop_toBottomOf="@+id/text" />
+
+                <TextView
+                    android:id="@+id/text23"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="- 기준금리: 2.89%      - 접수기간 : 상시접수"
+                    android:textColor="@color/app_color"
+                    android:textSize="13sp"
+                    app:layout_constraintStart_toStartOf="@+id/visitRanking"
+                    app:layout_constraintTop_toBottomOf="@+id/text22" />
+
+                <TextView
+                    android:id="@+id/amount"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="3dp"
+                    android:text="최대 10,000(만원)"
+                    android:textColor="@color/app_color"
+                    android:textSize="22sp"
+                    android:textStyle="bold"
+                    android:layout_marginBottom="6dp"
+                    app:layout_constraintStart_toStartOf="@+id/text"
+                    app:layout_constraintBottom_toBottomOf="parent" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginEnd="15dp"
+                    android:text="1순위 추천 금융상품"
+                    android:textColor="@color/app_color"
+                    android:textSize="12sp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/interiorLayout1"
+                android:layout_width="match_parent"
+                android:layout_height="170dp"
+                android:layout_marginTop="2dp"
+                android:background="@color/white">
+
+                <TextView
+                    android:id="@+id/visitRanking1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginTop="11dp"
+                    android:text="성장기반자금"
+                    android:textSize="13sp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+
+                <TextView
+                    android:id="@+id/text1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="혁신성장촉진자금"
+                    android:textColor="@color/app_color"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    app:layout_constraintStart_toStartOf="@+id/visitRanking1"
+                    app:layout_constraintTop_toBottomOf="@+id/visitRanking1" />
+
+                <ImageView
+                    android:id="@+id/starBtn5"
+                    android:layout_width="21dp"
+                    android:layout_height="21dp"
+                    android:src="@drawable/starbtn"
+                    app:layout_constraintStart_toEndOf="@+id/text1"
+                    app:layout_constraintTop_toTopOf="@+id/text1"
+                    android:layout_marginTop="2dp"
+                    android:layout_marginStart="6dp"
+                    />
+
+                <TextView
+                    android:id="@+id/text221"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="(직접대출) 수출 소상공인, 사회적경제기업, 로컬 크리에이터"
+                    android:textColor="@color/app_color"
+                    android:textSize="13sp"
+                    app:layout_constraintStart_toStartOf="@+id/visitRanking1"
+                    app:layout_constraintTop_toBottomOf="@+id/text1" />
+
+                <TextView
+                    android:id="@+id/text231"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="- 기준금리: 3.27%      - 접수기간 : 상시접수"
+                    android:textColor="@color/app_color"
+                    android:textSize="13sp"
+                    app:layout_constraintStart_toStartOf="@+id/visitRanking1"
+                    app:layout_constraintTop_toBottomOf="@+id/text221" />
+
+                <TextView
+                    android:id="@+id/amount1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="3dp"
+                    android:text="최대 30,000(만원)"
+                    android:textColor="@color/app_color"
+                    android:textSize="22sp"
+                    android:textStyle="bold"
+                    android:layout_marginBottom="6dp"
+                    app:layout_constraintStart_toStartOf="@+id/text1"
+                    app:layout_constraintBottom_toBottomOf="parent" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginEnd="15dp"
+                    android:text="2순위 추천 금융상품"
+                    android:textColor="@color/app_color"
+                    android:textSize="12sp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/cleanLayout"
+                android:layout_width="match_parent"
+                android:layout_height="170dp"
+                android:layout_marginTop="2dp"
+                android:background="@color/white">
+
+
+                <TextView
+                    android:id="@+id/visitRanking2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginTop="11dp"
+                    android:text="일반경영안정자금"
+                    android:textSize="13sp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+
+                <TextView
+                    android:id="@+id/text2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="일반자금"
+                    android:textColor="@color/app_color"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    app:layout_constraintStart_toStartOf="@+id/visitRanking2"
+                    app:layout_constraintTop_toBottomOf="@+id/visitRanking2" />
+
+                <ImageView
+                    android:id="@+id/starBtn4"
+                    android:layout_width="21dp"
+                    android:layout_height="21dp"
+                    android:src="@drawable/starbtn"
+                    app:layout_constraintStart_toEndOf="@+id/text2"
+                    app:layout_constraintTop_toTopOf="@+id/text2"
+                    android:layout_marginTop="2dp"
+                    android:layout_marginStart="6dp"
+                    />
+
+                <TextView
+                    android:id="@+id/text222"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="(대리대출) 업력무관 소상공인"
+                    android:textColor="@color/app_color"
+                    android:textSize="13sp"
+                    app:layout_constraintStart_toStartOf="@+id/visitRanking2"
+                    app:layout_constraintTop_toBottomOf="@+id/text2" />
+
+                <TextView
+                    android:id="@+id/text232"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="- 기준금리: 3.93%      - 접수기간 : 상시접수"
+                    android:textColor="@color/app_color"
+                    android:textSize="13sp"
+                    app:layout_constraintStart_toStartOf="@+id/visitRanking2"
+                    app:layout_constraintTop_toBottomOf="@+id/text222" />
+
+                <TextView
+                    android:id="@+id/amount2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="3dp"
+                    android:text="최대 10,000(만원)"
+                    android:textColor="@color/app_color"
+                    android:textSize="22sp"
+                    android:textStyle="bold"
+                    android:layout_marginBottom="6dp"
+                    app:layout_constraintStart_toStartOf="@+id/text2"
+                    app:layout_constraintBottom_toBottomOf="parent" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginEnd="15dp"
+                    android:text="3순위 추천 금융상품"
+                    android:textColor="@color/app_color"
+                    android:textSize="12sp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/etcLayout"
+                android:layout_width="match_parent"
+                android:layout_height="230dp"
+                android:background="@color/app_color"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/cleanLayout">
+
+                <TextView
+                    android:id="@+id/etcTitle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginTop="18dp"
+                    android:text="함께 볼만한 금융상품"
+                    android:textColor="@color/white"
+                    android:textSize="13sp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginEnd="15dp"
+                    android:text="다른 사람들이 신청한 금융상품"
+                    android:textColor="@color/white"
+                    android:textSize="12sp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:id="@+id/etc1_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:text="소공인특화자금"
+                    android:textColor="@color/white"
+                    android:textSize="15sp"
+                    android:textStyle="bold"
+                    app:layout_constraintStart_toStartOf="@+id/etcTitle"
+                    app:layout_constraintTop_toBottomOf="@+id/etcTitle" />
+
+                <TextView
+                    android:id="@+id/etc1_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="1dp"
+                    android:text="기준금리: 2.89%  (상시접수)"
+                    android:textColor="@color/brightGray"
+                    android:textSize="12sp"
+                    app:layout_constraintStart_toStartOf="@+id/etc1_name"
+                    app:layout_constraintTop_toBottomOf="@+id/etc1_name" />
+
+                <TextView
+                    android:id="@+id/etc1_amount"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="20dp"
+                    android:text="10,000"
+                    android:textColor="@color/white"
+                    android:textSize="17sp"
+                    android:textStyle="bold"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toTopOf="@+id/etc1_name" />
+
+
+                <TextView
+                    android:id="@+id/etc2_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:text="재도전특별자금"
+                    android:textColor="@color/white"
+                    android:textSize="15sp"
+                    android:textStyle="bold"
+                    app:layout_constraintStart_toStartOf="@+id/etcTitle"
+                    app:layout_constraintTop_toBottomOf="@+id/etc1_text" />
+
+                <TextView
+                    android:id="@+id/etc2_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="1dp"
+                    android:text="3.2%  (상시접수)"
+                    android:textColor="@color/brightGray"
+                    android:textSize="12sp"
+                    app:layout_constraintStart_toStartOf="@+id/etc2_name"
+                    app:layout_constraintTop_toBottomOf="@+id/etc2_name" />
+
+                <TextView
+                    android:id="@+id/etc2_amount"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="20dp"
+                    android:text="10,000"
+                    android:textColor="@color/white"
+                    android:textSize="17sp"
+                    android:textStyle="bold"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toTopOf="@+id/etc2_name" />
+
+                <TextView
+                    android:id="@+id/etc3_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:text="혁신성장촉진자금"
+                    android:textColor="@color/white"
+                    android:textSize="15sp"
+                    android:textStyle="bold"
+                    app:layout_constraintStart_toStartOf="@+id/etcTitle"
+                    app:layout_constraintTop_toBottomOf="@+id/etc2_text" />
+
+                <TextView
+                    android:id="@+id/etc3_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="1dp"
+                    android:text="3.27%  (상시접수)"
+                    android:textColor="@color/brightGray"
+                    android:textSize="12sp"
+                    app:layout_constraintStart_toStartOf="@+id/etc3_name"
+                    app:layout_constraintTop_toBottomOf="@+id/etc3_name" />
+
+                <TextView
+                    android:id="@+id/etc3_amount"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="20dp"
+                    android:text="3,000"
+                    android:textColor="@color/white"
+                    android:textSize="17sp"
+                    android:textStyle="bold"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toTopOf="@+id/etc3_name" />
+
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/etcLayout2"
+                android:layout_width="match_parent"
+                android:layout_height="107dp"
+                android:background="@color/white"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/etcLayout">
+
+                <TextView
+                    android:id="@+id/etc_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginTop="17dp"
+                    android:text="내 주변 지역센터 찾기"
+                    android:textSize="12sp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:id="@+id/text99"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="12dp"
+                    android:text="경북 구미시 구미대로 350-27 구미시종합비즈니스지원센터 408호"
+                    android:textSize="13sp"
+                    app:layout_constraintStart_toStartOf="@+id/etc_text"
+                    app:layout_constraintTop_toBottomOf="@+id/etc_text" />
+
+                <TextView
+                    android:id="@+id/text999"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:text="(전화번호: 054-475-5682)"
+                    android:textSize="13sp"
+                    app:layout_constraintStart_toStartOf="@+id/text99"
+                    app:layout_constraintTop_toBottomOf="@+id/text99" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
