@@ -6,7 +6,7 @@
 
 실제 존재하는 어플리케이션인 "호갱노노"의 UI를 벤치마킹했습니다.
 
-*(시연 영상 - https://youtube.com/shorts/SlzXLgIpZ40)*
+(시연 영상 *https://youtube.com/shorts/SlzXLgIpZ40*)
 
 
 ## 📌 주요 기능
