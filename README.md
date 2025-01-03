@@ -1,2 +1,2 @@
-# RecommendationStore
-A Store that Makes Money
+'돈 버는 점포'
+상권분석을 기반으로 예비 소상공인을 위한 맞춤형 점포를 추천하는 서비스입니다.
