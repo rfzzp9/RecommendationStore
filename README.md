@@ -75,7 +75,7 @@
 ## 📌 서비스 화면
 
 
-(시연 영상 *https://youtube.com/shorts/SlzXLgIpZ40*)
+(시연 영상 - *https://youtube.com/shorts/SlzXLgIpZ40*)
 
 
 <div align="center">
