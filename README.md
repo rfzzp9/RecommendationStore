@@ -75,6 +75,9 @@
 ## 📌 서비스 화면
 
 
+(시연 영상 *https://youtube.com/shorts/SlzXLgIpZ40*)
+
+
 <div align="center">
 
 | ![image1](https://github.com/user-attachments/assets/f99b49be-a73f-471d-8470-2a69ff658e22) | ![image2](https://github.com/user-attachments/assets/6e091da8-0050-4c98-9af3-f310f697a928) |
@@ -88,4 +91,3 @@
 </div>
 
 
-(시연 영상 *https://youtube.com/shorts/SlzXLgIpZ40*)
