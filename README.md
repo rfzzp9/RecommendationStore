@@ -14,17 +14,12 @@
 - 사용자 커뮤니티 및 스크랩 기능
 
 
-## 📌 팀 구성
-
-
-- 본인 1명
-
-
 ## 🛠 기술 스택
 
 
 |구분|Skill|
 |------|---|
+|Platform|Android Studio|
 |Language|Java|
 |Networking|Firebase SDK|
 |Design|Figma|
